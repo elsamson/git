@@ -51,6 +51,8 @@ if (file_exists(dirname(__FILE__) . '/wp-config-pantheon.php') && isset($_ENV['P
 
 /** Standard wp-config.php stuff from here on down. **/
 
+define( 'WP_MEMORY_LIMIT', '512M' );
+
 /**
  * WordPress Database Table prefix.
  *
