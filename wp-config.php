@@ -48,6 +48,7 @@ if (file_exists(dirname(__FILE__) . '/wp-config-pantheon.php') && isset($_ENV['P
 	define('NONCE_SALT',       'put your unique phrase here');
 }
 
+define( 'WP_MEMORY_LIMIT', '256M' );
 
 /** Standard wp-config.php stuff from here on down. **/
 
